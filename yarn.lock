@@ -11316,10 +11316,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"date-fns@npm:2.28.0":
-  version: 2.28.0
-  resolution: "date-fns@npm:2.28.0"
-  checksum: a0516b2e4f99b8bffc6cc5193349f185f195398385bdcaf07f17c2c4a24473c99d933eb0018be4142a86a6d46cb0b06be6440ad874f15e795acbedd6fd727a1f
+"date-fns@npm:3.3.1":
+  version: 3.3.1
+  resolution: "date-fns@npm:3.3.1"
+  checksum: 6245e93a47de28ac96dffd4d62877f86e6b64854860ae1e00a4f83174d80bc8e59bd1259cf265223fb2ddce5c8e586dc9cc210f0d052faba2f7660e265877283
   languageName: node
   linkType: hard
 
@@ -19163,7 +19163,7 @@ __metadata:
     core-js: ^3.25.2
     crypto-js: ^4.0.0
     cryptocurrency-icons: 0.18.0
-    date-fns: 2.28.0
+    date-fns: 3.3.1
     eslint: ^6.8.0
     eslint-plugin-import: ^2.23.4
     eslint-plugin-node: ^11.1.0
