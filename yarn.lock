@@ -11256,6 +11256,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"d@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "d@npm:1.0.2"
+  dependencies:
+    es5-ext: ^0.10.64
+    type: ^2.7.2
+  checksum: 775db1e8ced6707cddf64a5840522fcf5475d38ef49a5d615be0ac47f86ef64d15f5a73de1522b09327cc466d4dc35ea83dbfeed456f7a0fdcab138deb800355
+  languageName: node
+  linkType: hard
+
 "dagre-d3@npm:^0.6.4":
   version: 0.6.4
   resolution: "dagre-d3@npm:0.6.4"
@@ -12611,6 +12621,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"es5-ext@npm:^0.10.62, es5-ext@npm:^0.10.64":
+  version: 0.10.64
+  resolution: "es5-ext@npm:0.10.64"
+  dependencies:
+    es6-iterator: ^2.0.3
+    es6-symbol: ^3.1.3
+    esniff: ^2.0.1
+    next-tick: ^1.1.0
+  checksum: 01179fab0769fdbef213062222f99d0346724dbaccf04b87c0e6ee7f0c97edabf14be647ca1321f0497425ea7145de0fd278d1b3f3478864b8933e7136a5c645
+  languageName: node
+  linkType: hard
+
 "es6-error@npm:^4.1.1":
   version: 4.1.1
   resolution: "es6-error@npm:4.1.1"
@@ -13201,6 +13223,18 @@ __metadata:
   version: 3.2.25
   resolution: "esm@npm:3.2.25"
   checksum: 978aabe2de83541c105605a6d60a26ed8e627ef6bb0a7605fe15a95bbdea6b8348bd045255cb22219c054dd09a81a94823df00843d9e97f42419c92015ce3a64
+  languageName: node
+  linkType: hard
+
+"esniff@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "esniff@npm:2.0.1"
+  dependencies:
+    d: ^1.0.1
+    es5-ext: ^0.10.62
+    event-emitter: ^0.3.5
+    type: ^2.7.2
+  checksum: d814c0e5c39bce9925b2e65b6d8767af72c9b54f35a65f9f3d6e8c606dce9aebe35a9599d30f15b0807743f88689f445163cfb577a425de4fb8c3c5bc16710cc
   languageName: node
   linkType: hard
 
@@ -19181,7 +19215,7 @@ __metadata:
     kcd-scripts: 12.0.0
     lint-staged: ^9.5.0
     lodash-es: ^4.17.15
-    log: ^6.0.0
+    log: ^6.3.2
     markdown-it-vue: ^1.1.7
     memoizee: ^0.4.15
     mocha: 9.2.2
@@ -19555,18 +19589,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"log@npm:^6.0.0":
-  version: 6.3.1
-  resolution: "log@npm:6.3.1"
+"log@npm:^6.3.2":
+  version: 6.3.2
+  resolution: "log@npm:6.3.2"
   dependencies:
-    d: ^1.0.1
+    d: ^1.0.2
     duration: ^0.2.2
-    es5-ext: ^0.10.53
+    es5-ext: ^0.10.64
     event-emitter: ^0.3.5
-    sprintf-kit: ^2.0.1
-    type: ^2.5.0
+    sprintf-kit: ^2.0.2
+    type: ^2.7.3
     uni-global: ^1.0.0
-  checksum: 21800f4b55acb7878ec90fcf626d45002b22d91e74270357981305c7e0b7429599c62072b57e807fe73e07fc7229827e983f836f17401d661b22dcfc14519ea5
+  checksum: e28ac7ae46715f689f86ba20758828fd85734070d1d90b3f78dc15173e2313e5346fbc5d529646129914808c59cc57762dd8729c15e3e6b528d50f06d7a3456d
   languageName: node
   linkType: hard
 
@@ -25508,12 +25542,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sprintf-kit@npm:^2.0.1":
-  version: 2.0.1
-  resolution: "sprintf-kit@npm:2.0.1"
+"sprintf-kit@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "sprintf-kit@npm:2.0.2"
   dependencies:
-    es5-ext: ^0.10.53
-  checksum: e867136dc67419920da065ff57a75786b884cd66bb08c7b7978d0368ec6169ecbe90acd3fbc53435753a9b053d55075d196fe5e35ec17919c8251c6e909e41ec
+    es5-ext: ^0.10.64
+  checksum: af5ffb835891ef912acfed8039e350a0211aa619c215433d9810d37e07ba5f5d22726a818bd047e67583070a139c6be8894c0c47fd266ea93ceb841c98fa1672
   languageName: node
   linkType: hard
 
@@ -26955,6 +26989,13 @@ __metadata:
   version: 2.7.2
   resolution: "type@npm:2.7.2"
   checksum: 0f42379a8adb67fe529add238a3e3d16699d95b42d01adfe7b9a7c5da297f5c1ba93de39265ba30ffeb37dfd0afb3fb66ae09f58d6515da442219c086219f6f4
+  languageName: node
+  linkType: hard
+
+"type@npm:^2.7.3":
+  version: 2.7.3
+  resolution: "type@npm:2.7.3"
+  checksum: 69cfda3248847998f93b9d292fd251c10facf8d29513e2047d4684509d67bae82d910d7a00c1e9d9bbf2af242d36425b6616807d6c652c5c370c2be1f0008a47
   languageName: node
   linkType: hard
 
